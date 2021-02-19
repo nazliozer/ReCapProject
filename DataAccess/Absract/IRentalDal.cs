@@ -6,8 +6,7 @@ using System.Text;
 
 namespace DataAccess.Absract
 {
-    public interface IBrandDal : IEntityRepository<Brand>
+    public interface IRentalDal: IEntityRepository<Rental>
     {
-        
     }
 }
